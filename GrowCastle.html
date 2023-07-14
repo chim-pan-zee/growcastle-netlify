@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Grow Castle</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div style="position: relative; display: inline-block">
+      <canvas id="canvas"> </canvas>
+      <div
+        style="position: absolute; top: 20px; left: 660px; width: 600px"
+        id="castle-health"
+      >
+        10000
+      </div>
+      <img
+        src="Assets/Money.png"
+        alt="���� ������"
+        style="
+          position: absolute;
+          top: 20px;
+          left: 38px;
+          z-index: 1;
+          width: 80px;
+          height: 80px;
+        "
+      />
+      <div style="position: absolute; top: 20px; left: 120px" id="money">
+        1500
+      </div>
+      <div style="position: absolute; top: 100px; left: 40px">
+        <button id="castle-upgrade">
+          성 업그레이드 <br />
+          <span class="castle-stat">10000</span>
+          <span class="castle-plus"> (+500)</span> <br />
+          <span class="castle-price">1500</span>
+        </button>
+
+        <button id="archer-upgrade">
+          병사 업그레이드 <br />
+          <span class="archer-stat">20</span>
+          <span class="archer-plus"> (+10)</span> <br />
+          <span class="archer-price">1000</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- �� ü�� ǥ�� -->
+
+    <script src="javascript/placementTileData.js"></script>
+    <script src="javascript/waypoints.js"></script>
+    <script src="javascript/Classes/Building.js"></script>
+    <script src="javascript/Classes/Sprites.js"></script>
+    <script src="javascript/Classes/Castle.js"></script>
+    <script src="javascript/Classes/PlacementTile.js"></script>
+    <script src="javascript/Classes/ProjectTile.js"></script>
+    <script src="javascript/Classes/Enemy.js"></script>
+    <script src="javascript/jscode.js"></script>
+  </body>
+</html>

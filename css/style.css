@@ -1,0 +1,102 @@
+body {
+  height: 100vh;
+  background: url(https://media.discordapp.net/attachments/987640587425550366/1128172326228336640/Wallpaper.png?width=1040&height=585)
+    no-repeat center;
+  background-size: cover;
+}
+
+canvas {
+  border-radius: 10px;
+  border-width: 7px;
+  border-color: rgb(86, 87, 117);
+  border-style: solid;
+}
+
+#castle-health-frame {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#castle-health {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 300px;
+  height: 120px;
+  background: linear-gradient(
+    to bottom,
+    rgb(113, 101, 101) 50%,
+    rgb(62, 55, 55) 50%
+  );
+  font-size: 20pt;
+  font-weight: bold;
+  color: white;
+  text-shadow: -3px 0px rgb(0, 0, 0), 0px 3px rgb(0, 0, 0), 3px 0px rgb(0, 0, 0),
+    0px -3px rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 7px;
+  border-color: rgb(48, 39, 34);
+  border-style: solid;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translate(0px, 0px) scale(1.03);
+  cursor: pointer;
+}
+
+button:active {
+  transform: translate(0px, 0px) scale(0.95);
+  cursor: pointer;
+}
+
+button:visited {
+  transform: translate(0px, 0px) scale(1);
+  cursor: pointer;
+}
+
+#money {
+  width: 514px;
+  height: 60px;
+  background: rgb(62, 59, 59);
+  font-size: 30pt;
+  font-weight: bold;
+  color: white;
+  text-shadow: -3px 0px rgb(0, 0, 0), 0px 3px rgb(0, 0, 0), 3px 0px rgb(0, 0, 0),
+    0px -3px rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 7px;
+  border-color: rgb(48, 39, 34);
+  border-style: solid;
+}
+
+#castle-health {
+  height: 60px;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 0, 0) 50%,
+    rgb(203, 0, 0) 50%
+  );
+  font-size: 30pt;
+  font-weight: bold;
+  color: white;
+  text-shadow: -3px 0px rgb(0, 0, 0), 0px 3px rgb(0, 0, 0), 3px 0px rgb(0, 0, 0),
+    0px -3px rgb(0, 0, 0);
+  border-radius: 20px;
+  border-width: 7px;
+  border-color: rgb(48, 39, 34);
+  border-style: solid;
+}
